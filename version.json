@@ -1,26 +1,26 @@
 {
-  "version_code": 5,
-  "version_name": "0.1.4",
-  "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-universal.apk",
-  "sha256": "6cb399f8093ad49b6aa90b5568dbbb8060cdc927614b71cbce39f46e0a7d6049",
-  "release_notes": "• Added Google Drive AppData cloud synchronization for My List watchlist\n• Added deterministic last-write-wins timestamp conflict resolution\n• Updated in-app Privacy Policy disclosing hidden Google Drive AppData storage\n• Isolated release signing configurations from debug keystore\n• Added unit tests for cloud sync conflict resolution",
-  "github_url": "https://github.com/nd7hdyt/AniMarvle/releases/tag/v0.1.4",
+  "version_code": 1,
+  "version_name": "0.1.0",
+  "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.0/Animarvle-Android-universal.apk",
+  "sha256": "08d733ce8263831b64eeb6e99caa996e6b7a4ad8976ac731e36ff8503bcef1ce",
+  "release_notes": "• Initial public release of Animarvle\n• Pure OLED Black (#000000) Obsidian Glass user interface\n• AniList anime rails and TMDB movies & TV shows catalog\n• AndroidX Media3 / ExoPlayer adaptive HLS streaming engine\n• Hardwired edge stream resolver for sub-second startup\n• Google Drive AppData cloud synchronization for My List watchlist\n• Smart auto-rotate fullscreen player expansion\n• Multi-architecture packaging (arm64-v8a, armeabi-v7a, x86_64, universal)",
+  "github_url": "https://github.com/nd7hdyt/AniMarvle/releases/tag/v0.1.0",
   "architectures": {
     "arm64-v8a": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-arm64-v8a.apk",
-      "sha256": "7de79015c45a0b4cfe2fc04dc2a39ab6fe69f258ca14469755ea91faf7450599"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.0/Animarvle-Android-arm64-v8a.apk",
+      "sha256": "876903a4ee3086883581479a85e8113d7d67a2a2ca85d0df6c4969f66050ec74"
     },
     "armeabi-v7a": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-armeabi-v7a.apk",
-      "sha256": "93bcd4af1cf81eeebdc67a4b0f74f56941cfe992dee5835d898cb58d9b99117f"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.0/Animarvle-Android-armeabi-v7a.apk",
+      "sha256": "48beb8a608701e6db0ff43e038414dd6788dbf7ed11e0950018ec335dd8a7195"
     },
     "x86_64": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-x86_64.apk",
-      "sha256": "ba0ea0ce59a2040811513eda1515d48e2b2ebd2cb4a16a95c618bb8a443e2793"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.0/Animarvle-Android-x86_64.apk",
+      "sha256": "013bd95ccc33c296bc464ceed9c8a23b43cb27840433d7e48f70376c95b3bba4"
     },
     "universal": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-universal.apk",
-      "sha256": "6cb399f8093ad49b6aa90b5568dbbb8060cdc927614b71cbce39f46e0a7d6049"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.0/Animarvle-Android-universal.apk",
+      "sha256": "08d733ce8263831b64eeb6e99caa996e6b7a4ad8976ac731e36ff8503bcef1ce"
     }
   }
 }
