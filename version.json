@@ -1,0 +1,26 @@
+{
+  "version_code": 5,
+  "version_name": "0.1.4",
+  "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-universal.apk",
+  "sha256": "6cb399f8093ad49b6aa90b5568dbbb8060cdc927614b71cbce39f46e0a7d6049",
+  "release_notes": "• Added Google Drive AppData cloud synchronization for My List watchlist\n• Added deterministic last-write-wins timestamp conflict resolution\n• Updated in-app Privacy Policy disclosing hidden Google Drive AppData storage\n• Isolated release signing configurations from debug keystore\n• Added unit tests for cloud sync conflict resolution",
+  "github_url": "https://github.com/nd7hdyt/AniMarvle/releases/tag/v0.1.4",
+  "architectures": {
+    "arm64-v8a": {
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-arm64-v8a.apk",
+      "sha256": "7de79015c45a0b4cfe2fc04dc2a39ab6fe69f258ca14469755ea91faf7450599"
+    },
+    "armeabi-v7a": {
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-armeabi-v7a.apk",
+      "sha256": "93bcd4af1cf81eeebdc67a4b0f74f56941cfe992dee5835d898cb58d9b99117f"
+    },
+    "x86_64": {
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-x86_64.apk",
+      "sha256": "ba0ea0ce59a2040811513eda1515d48e2b2ebd2cb4a16a95c618bb8a443e2793"
+    },
+    "universal": {
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-universal.apk",
+      "sha256": "6cb399f8093ad49b6aa90b5568dbbb8060cdc927614b71cbce39f46e0a7d6049"
+    }
+  }
+}
