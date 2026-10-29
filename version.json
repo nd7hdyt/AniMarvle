@@ -2,25 +2,25 @@
   "version_code": 2,
   "version_name": "0.1.1",
   "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-universal.apk",
-  "sha256": "4ddc1177fd190b913f7ceb9ad83fd0fed2addd01ffac507fef6a9106abb5d90b",
-  "release_notes": "⚡ Playback & Resume Speedups\n• Fast-path saved stream probe on Continue Watching & Resume: instantly plays verified working streams without re-scraping\n• Seamless resume from Subtitle Settings: stream re-prepares at the exact position instead of stopping\n\n🔧 Storage & Download Permissions\n• Added READ_MEDIA_VIDEO, READ_EXTERNAL_STORAGE and WRITE_EXTERNAL_STORAGE manifest declarations for .mkv/.mp4 download output\n• Unified permission request at launch (notification + storage) via DownloadStorageHelper\n• Download folder picker now pre-requests missing storage permissions before opening SAF\n• Friendly folder path labels (\"Internal Storage > Download\", \"SD Card > …\")\n\n🔗 Google Drive Sync Fix\n• drive.appdata OAuth scope now requested at Google Sign-In — no more 403 access_denied on fresh installs\n• Clear actionable dialog when app is in Google Testing mode: instructs user to sign out/in or contact developer\n• Improved 403 error classification (disabled vs access_denied vs other)\n\n🖥️ UI Stability\n• Fixed black screen on low-end devices (ConstraintLayout match_parent → 0dp MATCH_CONSTRAINT)\n• Search, Login, Sign-up, Edit-profile, Welcome, Feed carousel, My List card layouts patched",
+  "sha256": "1a13ea3577850c1c9116171ec9454fced96405d2cd056ac8735705b1b72242e0",
+  "release_notes": "🔑 TMDB & Secrets Hardened Fallbacks\n• Hardcoded multi-tier fallbacks for TMDB_API_KEY, SIMKL_CLIENT_ID, MAL credentials, and GOOGLE_WEB_CLIENT_ID across code, build.gradle.kts, and CI\n• Completely resolves TMDB HTTP 401 Invalid API key on fresh release builds\n\n🛡️ Complete Simkl Metadata Fallback Architecture\n• TV & Movies Rails: Seamless fallback to Simkl popular movies/tv when TMDB is unavailable\n• Schedule Screen: TMDB schedule now falls back to Simkl TV Airing schedule to prevent HTTP 401 error cards\n• Details Screen: Added Simkl details fallback by TMDB ID / Simkl ID with season & episode resolution (eliminates \"Title not found\" errors)\n• Recommendations: More Like This rail gracefully falls back to Simkl popular titles\n• Episode Metadata: Direct Simkl episode & still thumbnail fallback hierarchy\n\n⚡ Playback & Resume Speedups\n• Fast-path saved stream probe on Continue Watching: instant playback (<500ms) without re-scraping\n• Seamless resume from Subtitle Settings: preserves position without stream stopping\n\n🔧 Storage & Google Drive\n• Storage permissions (READ_MEDIA_VIDEO, MANAGE_EXTERNAL_STORAGE) for downloads saving as .mkv/.mp4\n• Google Drive AppData Sync scope handling and helpful guidance for testing mode 403",
   "github_url": "https://github.com/nd7hdyt/AniMarvle/releases/tag/v0.1.1",
   "architectures": {
     "arm64-v8a": {
       "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-arm64-v8a.apk",
-      "sha256": "1c6b0fb3bb81bb37eceecbbfb91f3cc6a0287c8c75228a56003caa5d13a02e05"
+      "sha256": "8fcae4479cf0f725dd8a9597c1835b9c766654baf51b764af3806f1d7a4f7a32"
     },
     "armeabi-v7a": {
       "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-armeabi-v7a.apk",
-      "sha256": "067aa1b8d7737b347774e6c24ecd23068cc2c94df38a0a0f8a602d428875ab01"
+      "sha256": "d43902d1c534596c6b76dc08530d148345f591741d5f69ad8fb0201c094d31c0"
     },
     "x86_64": {
       "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-x86_64.apk",
-      "sha256": "2f551413e0a8d3a52b8042d9a1153a6985f2ffcaa81c29106710e8f3bdb743db"
+      "sha256": "91d2899733befe82f306962b712866a1bc851417e58d1529f756d789c5ca4410"
     },
     "universal": {
       "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-universal.apk",
-      "sha256": "4ddc1177fd190b913f7ceb9ad83fd0fed2addd01ffac507fef6a9106abb5d90b"
+      "sha256": "1a13ea3577850c1c9116171ec9454fced96405d2cd056ac8735705b1b72242e0"
     }
   }
 }
