@@ -1,26 +1,26 @@
 {
-  "version_code": 1,
-  "version_name": "0.1.0",
-  "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.0/Animarvle-Android-universal.apk",
-  "sha256": "08d733ce8263831b64eeb6e99caa996e6b7a4ad8976ac731e36ff8503bcef1ce",
-  "release_notes": "• Initial public release of Animarvle\n• Pure OLED Black (#000000) Obsidian Glass user interface\n• AniList anime rails and TMDB movies & TV shows catalog\n• AndroidX Media3 / ExoPlayer adaptive HLS streaming engine\n• Hardwired edge stream resolver for sub-second startup\n• Google Drive AppData cloud synchronization for My List watchlist\n• Smart auto-rotate fullscreen player expansion\n• Multi-architecture packaging (arm64-v8a, armeabi-v7a, x86_64, universal)",
-  "github_url": "https://github.com/nd7hdyt/AniMarvle/releases/tag/v0.1.0",
+  "version_code": 2,
+  "version_name": "0.1.1",
+  "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-universal.apk",
+  "sha256": "4ddc1177fd190b913f7ceb9ad83fd0fed2addd01ffac507fef6a9106abb5d90b",
+  "release_notes": "⚡ Playback & Resume Speedups\n• Fast-path saved stream probe on Continue Watching & Resume: instantly plays verified working streams without re-scraping\n• Seamless resume from Subtitle Settings: stream re-prepares at the exact position instead of stopping\n\n🔧 Storage & Download Permissions\n• Added READ_MEDIA_VIDEO, READ_EXTERNAL_STORAGE and WRITE_EXTERNAL_STORAGE manifest declarations for .mkv/.mp4 download output\n• Unified permission request at launch (notification + storage) via DownloadStorageHelper\n• Download folder picker now pre-requests missing storage permissions before opening SAF\n• Friendly folder path labels (\"Internal Storage > Download\", \"SD Card > …\")\n\n🔗 Google Drive Sync Fix\n• drive.appdata OAuth scope now requested at Google Sign-In — no more 403 access_denied on fresh installs\n• Clear actionable dialog when app is in Google Testing mode: instructs user to sign out/in or contact developer\n• Improved 403 error classification (disabled vs access_denied vs other)\n\n🖥️ UI Stability\n• Fixed black screen on low-end devices (ConstraintLayout match_parent → 0dp MATCH_CONSTRAINT)\n• Search, Login, Sign-up, Edit-profile, Welcome, Feed carousel, My List card layouts patched",
+  "github_url": "https://github.com/nd7hdyt/AniMarvle/releases/tag/v0.1.1",
   "architectures": {
     "arm64-v8a": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.0/Animarvle-Android-arm64-v8a.apk",
-      "sha256": "876903a4ee3086883581479a85e8113d7d67a2a2ca85d0df6c4969f66050ec74"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-arm64-v8a.apk",
+      "sha256": "1c6b0fb3bb81bb37eceecbbfb91f3cc6a0287c8c75228a56003caa5d13a02e05"
     },
     "armeabi-v7a": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.0/Animarvle-Android-armeabi-v7a.apk",
-      "sha256": "48beb8a608701e6db0ff43e038414dd6788dbf7ed11e0950018ec335dd8a7195"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-armeabi-v7a.apk",
+      "sha256": "067aa1b8d7737b347774e6c24ecd23068cc2c94df38a0a0f8a602d428875ab01"
     },
     "x86_64": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.0/Animarvle-Android-x86_64.apk",
-      "sha256": "013bd95ccc33c296bc464ceed9c8a23b43cb27840433d7e48f70376c95b3bba4"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-x86_64.apk",
+      "sha256": "2f551413e0a8d3a52b8042d9a1153a6985f2ffcaa81c29106710e8f3bdb743db"
     },
     "universal": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.0/Animarvle-Android-universal.apk",
-      "sha256": "08d733ce8263831b64eeb6e99caa996e6b7a4ad8976ac731e36ff8503bcef1ce"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-universal.apk",
+      "sha256": "4ddc1177fd190b913f7ceb9ad83fd0fed2addd01ffac507fef6a9106abb5d90b"
     }
   }
 }
