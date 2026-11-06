@@ -1,26 +1,26 @@
 {
-  "version_code": 2,
-  "version_name": "0.1.1",
-  "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-universal.apk",
-  "sha256": "1a13ea3577850c1c9116171ec9454fced96405d2cd056ac8735705b1b72242e0",
-  "release_notes": "🔑 TMDB & Secrets Hardened Fallbacks\n• Hardcoded multi-tier fallbacks for TMDB_API_KEY, SIMKL_CLIENT_ID, MAL credentials, and GOOGLE_WEB_CLIENT_ID across code, build.gradle.kts, and CI\n• Completely resolves TMDB HTTP 401 Invalid API key on fresh release builds\n\n🛡️ Complete Simkl Metadata Fallback Architecture\n• TV & Movies Rails: Seamless fallback to Simkl popular movies/tv when TMDB is unavailable\n• Schedule Screen: TMDB schedule now falls back to Simkl TV Airing schedule to prevent HTTP 401 error cards\n• Details Screen: Added Simkl details fallback by TMDB ID / Simkl ID with season & episode resolution (eliminates \"Title not found\" errors)\n• Recommendations: More Like This rail gracefully falls back to Simkl popular titles\n• Episode Metadata: Direct Simkl episode & still thumbnail fallback hierarchy\n\n⚡ Playback & Resume Speedups\n• Fast-path saved stream probe on Continue Watching: instant playback (<500ms) without re-scraping\n• Seamless resume from Subtitle Settings: preserves position without stream stopping\n\n🔧 Storage & Google Drive\n• Storage permissions (READ_MEDIA_VIDEO, MANAGE_EXTERNAL_STORAGE) for downloads saving as .mkv/.mp4\n• Google Drive AppData Sync scope handling and helpful guidance for testing mode 403",
-  "github_url": "https://github.com/nd7hdyt/AniMarvle/releases/tag/v0.1.1",
+  "version_code": 3,
+  "version_name": "0.1.2",
+  "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v.0.1.2/Animarvle-Android-universal.apk",
+  "sha256": "cd7df895553fe1b5009ca97d5f688829c4cf41458c221534942a6dfcb0651b6f",
+  "release_notes": "🚀 v0.1.2 Stream Stabilization, Download Probing & Fallback Hardening\n• Accurate Download Sizing & CDN Headers: HTTP HEAD/Range 0-0 file size probing with automatic CDN auth header forwarding\n• 403 Infinite Loop Resolution: Bounded retry engine with failedServers tracking and graceful source/extension fallback\n• Stale CDN Token Firewall: Discards expired Vidlink stream URLs (t < unix_timestamp) to prevent short-circuiting valid fallbacks\n• Anime Episode Resolution: Fixed episode 1 lock bug for all series selections\n• Anime TV Season Fallback: Guarded season switching against false-positive standalone movie fallbacks (Bleach, One Piece)\n• Stream Security: Hardened Provider J against rogue adult video contamination",
+  "github_url": "https://github.com/nd7hdyt/AniMarvle/releases/tag/v0.1.2",
   "architectures": {
     "arm64-v8a": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-arm64-v8a.apk",
-      "sha256": "8fcae4479cf0f725dd8a9597c1835b9c766654baf51b764af3806f1d7a4f7a32"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v.0.1.2/Animarvle-Android-arm64-v8a.apk",
+      "sha256": "96c68a6ec10b804da5258d1282115580bfd51d9d3e8d0766d9ae30b918c06e3f"
     },
     "armeabi-v7a": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-armeabi-v7a.apk",
-      "sha256": "d43902d1c534596c6b76dc08530d148345f591741d5f69ad8fb0201c094d31c0"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v.0.1.2/Animarvle-Android-armeabi-v7a.apk",
+      "sha256": "a5f11441c6f40643c95684510d42fcc973bf1e9d54b6566c012b670f5aaa52e2"
     },
     "x86_64": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-x86_64.apk",
-      "sha256": "91d2899733befe82f306962b712866a1bc851417e58d1529f756d789c5ca4410"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v.0.1.2/Animarvle-Android-x86_64.apk",
+      "sha256": "c351baa4cea6fd04d817624582c1885e4e59a947f1367647f122c2721c01273e"
     },
     "universal": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.1/Animarvle-Android-universal.apk",
-      "sha256": "1a13ea3577850c1c9116171ec9454fced96405d2cd056ac8735705b1b72242e0"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v.0.1.2/Animarvle-Android-universal.apk",
+      "sha256": "cd7df895553fe1b5009ca97d5f688829c4cf41458c221534942a6dfcb0651b6f"
     }
   }
 }
