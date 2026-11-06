@@ -1,25 +1,25 @@
 {
   "version_code": 3,
   "version_name": "0.1.2",
-  "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v.0.1.2/Animarvle-Android-universal.apk",
+  "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.2/Animarvle-Android-universal.apk",
   "sha256": "cd7df895553fe1b5009ca97d5f688829c4cf41458c221534942a6dfcb0651b6f",
   "release_notes": "🚀 v0.1.2 Stream Stabilization, Download Probing & Fallback Hardening\n• Accurate Download Sizing & CDN Headers: HTTP HEAD/Range 0-0 file size probing with automatic CDN auth header forwarding\n• 403 Infinite Loop Resolution: Bounded retry engine with failedServers tracking and graceful source/extension fallback\n• Stale CDN Token Firewall: Discards expired Vidlink stream URLs (t < unix_timestamp) to prevent short-circuiting valid fallbacks\n• Anime Episode Resolution: Fixed episode 1 lock bug for all series selections\n• Anime TV Season Fallback: Guarded season switching against false-positive standalone movie fallbacks (Bleach, One Piece)\n• Stream Security: Hardened Provider J against rogue adult video contamination",
   "github_url": "https://github.com/nd7hdyt/AniMarvle/releases/tag/v0.1.2",
   "architectures": {
     "arm64-v8a": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v.0.1.2/Animarvle-Android-arm64-v8a.apk",
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.2/Animarvle-Android-arm64-v8a.apk",
       "sha256": "96c68a6ec10b804da5258d1282115580bfd51d9d3e8d0766d9ae30b918c06e3f"
     },
     "armeabi-v7a": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v.0.1.2/Animarvle-Android-armeabi-v7a.apk",
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.2/Animarvle-Android-armeabi-v7a.apk",
       "sha256": "a5f11441c6f40643c95684510d42fcc973bf1e9d54b6566c012b670f5aaa52e2"
     },
     "x86_64": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v.0.1.2/Animarvle-Android-x86_64.apk",
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.2/Animarvle-Android-x86_64.apk",
       "sha256": "c351baa4cea6fd04d817624582c1885e4e59a947f1367647f122c2721c01273e"
     },
     "universal": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v.0.1.2/Animarvle-Android-universal.apk",
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.2/Animarvle-Android-universal.apk",
       "sha256": "cd7df895553fe1b5009ca97d5f688829c4cf41458c221534942a6dfcb0651b6f"
     }
   }
