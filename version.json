@@ -1,26 +1,26 @@
 {
-  "version_code": 4,
-  "version_name": "0.1.3",
-  "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.3/Animarvle-Android-universal.apk",
-  "sha256": "cc58c5c981db8aa478dbdd3600a74cf421bd068cf93a8b4985db2456d6febade",
-  "release_notes": "🚀 v0.1.3 Player Orientation, Stream Deduplication & CDN Normalization\n• Offline Playback Landscape Fullscreen: Direct locked landscape fullscreen playback for downloaded media without portrait mini-player\n• VidLink & Halo/Nebula Server Deduplication: Streamlined download options and player source selector by deduplicating clone CDN endpoints\n• CDN 403 Forbidden Normalization: Automatic fallback & rewriting of partitioned CDN clusters to primary high-availability endpoints\n• Subtitle Language Flags & Customization: Integrated ISO 639-1 flag resolution and styled caption rendering\n• Cloud Sync & Security Hardening: Tombstone deletion syncing, secret removal, and pre-hop redirect validation",
-  "github_url": "https://github.com/nd7hdyt/AniMarvle/releases/tag/v0.1.3",
+  "version_code": 5,
+  "version_name": "0.1.4",
+  "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-universal.apk",
+  "sha256": "520014414869d18bf1c28835f80bd97da9d8c269f817dc714150d19be50aef1f",
+  "release_notes": "🚀 v0.1.4 Series Episode Resolution, Download Quality Fallback & Multi-Season Routing\n• Series Episode Download Resolution: Fixed an issue where TV and Anime episodes beyond Episode 1 defaulted to Episode 1's streams\n• Download Quality Sheet Episode Synthesis: Automatically synthesizes target episode and season queries when episode counts are unlisted, eliminating silent fallbacks\n• TV Season & Multi-Episode Routing: Wired season numbers from player and detail views through the download options sheet\n• Batch Download Multi-Episode Resolving: Ensured every episode in a batch queue resolves its own unique stream URL instead of cloning the first episode\n• Serverless Worker TV MultiEmbed & VidLink Hardening: Added tmdb=1 parameter to MultiEmbed for TV episodes and guarded against null stream payloads",
+  "github_url": "https://github.com/nd7hdyt/AniMarvle/releases/tag/v0.1.4",
   "architectures": {
     "arm64-v8a": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.3/Animarvle-Android-arm64-v8a.apk",
-      "sha256": "cbc96dfa95a0df85b9ad05b45968b4e4c1efed39e8d3d0beaf27c42e68248348"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-arm64-v8a.apk",
+      "sha256": "518b6ad9851a20b0413b8b6854ae524d7837e596235a0c0fabe0e8ed16c9fb59"
     },
     "armeabi-v7a": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.3/Animarvle-Android-armeabi-v7a.apk",
-      "sha256": "408db8750c5282678e15368eed4009562236caa452a7cd43e233d64cf6435df9"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-armeabi-v7a.apk",
+      "sha256": "35947723a9e975303e14b34635b029f7f2ab54ec0d9e599970d244793bb16c0b"
     },
     "x86_64": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.3/Animarvle-Android-x86_64.apk",
-      "sha256": "acec396f700d39d852c7949a04c270e43db30eb44053496902047e4380028340"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-x86_64.apk",
+      "sha256": "b90b93e1a6e4e73bfb296be5315f78296289fa486090462908b824bf70a655e1"
     },
     "universal": {
-      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.3/Animarvle-Android-universal.apk",
-      "sha256": "cc58c5c981db8aa478dbdd3600a74cf421bd068cf93a8b4985db2456d6febade"
+      "apk_url": "https://github.com/nd7hdyt/AniMarvle/releases/download/v0.1.4/Animarvle-Android-universal.apk",
+      "sha256": "520014414869d18bf1c28835f80bd97da9d8c269f817dc714150d19be50aef1f"
     }
   }
 }
